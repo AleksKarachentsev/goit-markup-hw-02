@@ -7,7 +7,9 @@
 /* Індекс HTML */
 body {
   color: var(--primary-text-color);
+  background-color: #ffffff;
   font-family: Roboto, sans-serif;
+  font-size: 14px
   letter-spacing: 0.03em;
 }
 ul {
@@ -28,7 +30,6 @@ a {
 }
 .site-nav .link {
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: #212121;
@@ -42,7 +43,6 @@ a {
 }
 .site-auth .link {
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: #757575;
@@ -52,14 +52,10 @@ a {
   color: var(--accent-color);
 }
 .section-hero {
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 1.36;
-  text-align: center;
-  letter-spacing: 0.06em;
   background-color: #2f303a;
 }
 .button {
+  font-family: inherit;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
@@ -69,7 +65,15 @@ a {
   background-color: #2196f3;
   cursor: pointer;
 }
+.button:hover, 
+.button:focus {background: #188ce8;}
 .title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
   color: var(--secondary-text-color);
 }
 .visually-hidden {
@@ -92,13 +96,13 @@ a {
 }
 .section-title {
   font-weight: 700;
-  font-size: 14px;
   line-height: 1.14;
+  text-transform: uppercase;
 }
 .section-text {
-  font-size: 14px;
   line-height: 1.71;
 }
+.team {background-color:#F5F4FA ;}
 .activity-title,
 .team-title {
   font-weight: 700;
@@ -152,13 +156,17 @@ footer {
 
 /* Портфоліо */
 .filter-button {
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.63;
+  letter-spacing: 0.03em;
   color: var(--title-text-color);
   background-color: #f5f4fa;
   cursor: pointer;
 }
+.filter-button:hover, .filter-button:focus {color: var(--secondary-text-color);
+background:  #2196f3;}
 .title-portfolio {
   font-weight: 700;
   font-size: 18px;
