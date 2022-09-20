@@ -43,7 +43,7 @@ a {
 .site-auth .link {
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.14px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
   color: #757575;
 }
@@ -93,7 +93,7 @@ a {
 .section-title {
   font-weight: 700;
   font-size: 14px;
-  line-height: 1.14px;
+  line-height: 1.14;
 }
 .section-text {
   font-size: 14px;
@@ -114,7 +114,7 @@ a {
 .profession {
   font-weight: 400;
   font-size: 16px;
-  line-height: 1.18px;
+  line-height: 1.18;
 }
 footer {
   background-color: #2f303a;
@@ -124,21 +124,21 @@ footer {
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
-  line-height: 1.19px;
+  line-height: 1.19;
   color: var(--secondary-text-color);
 }
 .adress-link-map {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 1.71px;
+  line-height: 1.71;
   color: var(--secondary-text-color);
 }
 .adress-link {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 1.71px;
+  line-height: 1.71;
   color: var(--primary-text-color);
 }
 .adress-link:hover,
