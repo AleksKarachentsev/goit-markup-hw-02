@@ -9,7 +9,7 @@ body {
   color: var(--primary-text-color);
   background-color: #ffffff;
   font-family: Roboto, sans-serif;
-  font-size: 14px
+  font-size: 14px;
   letter-spacing: 0.03em;
 }
 ul {
@@ -65,8 +65,10 @@ a {
   background-color: #2196f3;
   cursor: pointer;
 }
-.button:hover, 
-.button:focus {background: #188ce8;}
+.button:hover,
+.button:focus {
+  background: #188ce8;
+}
 .title {
   font-weight: 900;
   font-size: 44px;
@@ -97,12 +99,15 @@ a {
 .section-title {
   font-weight: 700;
   line-height: 1.14;
+  font-size: 14px;
   text-transform: uppercase;
 }
 .section-text {
   line-height: 1.71;
 }
-.team {background-color:#F5F4FA ;}
+.team {
+  background-color: #f5f4fa;
+}
 .activity-title,
 .team-title {
   font-weight: 700;
@@ -165,8 +170,11 @@ footer {
   background-color: #f5f4fa;
   cursor: pointer;
 }
-.filter-button:hover, .filter-button:focus {color: var(--secondary-text-color);
-background:  #2196f3;}
+.filter-button:hover,
+.filter-button:focus {
+  color: var(--secondary-text-color);
+  background: #2196f3;
+}
 .title-portfolio {
   font-weight: 700;
   font-size: 18px;
